@@ -63,7 +63,7 @@ complianceService.js: Handles interactions with an API that monitors compliance 
 6. React Routing
 React Router can be used to navigate between different pages (Home, Contract Generator, Compliance Monitoring, etc.).
 
-jsx
+```jsx
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
@@ -92,7 +92,7 @@ function App() {
 }
 
 export default App;
-
+```
 6. Subscription Model
 For handling the subscription model for compliance services, you can integrate a payment gateway like Stripe or PayPal. Users can subscribe to receive regular compliance alerts through different plans.
 Stripe Integration: Create a subscriptionService.js that interacts with the Stripe API for payment processing and subscription management.
